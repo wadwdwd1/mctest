@@ -12,3 +12,5 @@ fi
 sed "s|{gemini}|$GEMINI|g" keys.json.template > keys.json
 
 echo "keys.json has been generated with the secret."
+
+node main.js
