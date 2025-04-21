@@ -1,5 +1,7 @@
 #!/bin/bash
 
+npm install
+
 # Make sure GEMINI is set
 if [ -z "$GEMINI" ]; then
   echo "GEMINI secret is not set!"
